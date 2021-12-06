@@ -9,20 +9,72 @@ p {
   width: 100%;
   height: 100%;
 }
-div {
+mainSection div {
   color: rgb(59, 54, 49);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+input {
+  width: 200px;
+  height: 25px;
+  margin: 5px;
+
+  text-align: center;
+
+  outline: none;
+  border: none;
+  border-bottom: 3px solid rgb(113, 46, 139);
+  border-radius: 0px 0px 15px 15px;
+  background: none;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(73, 18, 95);
+}
+.loginSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.loginBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  box-shadow: 0px 0px 5px 2px rgb(159, 80, 190);
+}
+.btnLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background: rgb(113, 46, 139);
+  border-radius: 20px 20px 30px 30px;
+  color: rgb(230, 59, 29);
+}
+.mainSection {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
 .mainBox {
   display: flex;
   width: 100%;
-  height: 50%;
+  height: 60%;
   background: rgba(155, 90, 46);
 }
 .textBox {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px 10px 0px 10px;
   width: 30%;
   height: 100%;
   white-space: pre-wrap;
@@ -36,6 +88,41 @@ div {
   height: 100%;
 }
 .heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 20%;
   font-size: 200px;
   color: crimson;
+}
+/*----- background-box-color -----*/
+.red {
+  background-color: rgb(172, 85, 85);
+}
+.orange {
+  background-color: rgb(180, 159, 38);
+}
+/*----- color-text -----*/
+.redText {
+  color: rgb(172, 85, 85);
+}
+.orangeText {
+  color: rgb(180, 118, 38);
+}
+.yellowText {
+  color: rgb(180, 159, 38);
+}
+.greenText {
+  color: rgb(68, 179, 64);
+}
+.blueText {
+  color: rgb(38, 147, 180);
+}
+.darkBlueText {
+  color: rgb(38, 71, 180);
+}
+.purpleText {
+  color: rgb(140, 38, 180);
 }
