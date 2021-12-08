@@ -9,8 +9,7 @@ p {
   width: 100%;
   height: 100%;
 }
-mainSection div {
-  color: rgb(59, 54, 49);
+.mainSection div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +101,22 @@ input {
   background-color: rgb(172, 85, 85);
 }
 .orange {
+  background-color: rgb(180, 118, 38);;
+}
+.yellow {
   background-color: rgb(180, 159, 38);
+}
+.green {
+  background-color: rgb(68, 179, 64);
+}
+.blue {
+  background-color: rgb(38, 147, 180);
+}
+.darkBlue {
+  background-color: rgb(38, 71, 180);
+}
+.purple {
+  background-color: rgb(140, 38, 180);
 }
 /*----- color-text -----*/
 .redText {
