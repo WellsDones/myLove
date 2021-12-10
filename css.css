@@ -119,27 +119,12 @@ input {
   background-color: rgb(140, 38, 180);
 }
 /*----- color-text -----*/
-.redText {
-  color: rgb(172, 85, 85);
-}
-.orangeText {
-  color: rgb(180, 118, 38);
-}
-.yellowText {
-  color: rgb(180, 159, 38);
-}
-.greenText {
-  color: rgb(83, 231, 78);
-}
-.blueText {
-  color: rgb(38, 147, 180);
-}
-.darkBlueText {
-  color: rgb(38, 71, 180);
-}
-.purpleText {
-  color: rgb(140, 38, 180);
+.text {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(22, 22, 22);
+  filter: drop-shadow(3px 4px 7px black);
 }
 .class {
-  font-size: 100px;
+  font-size: 50px;
+  color: plum;
 }
