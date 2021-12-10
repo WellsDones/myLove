@@ -121,7 +121,7 @@ input {
 /*----- color-text -----*/
 .text {
   font-family: 'Montserrat', sans-serif;
-  color: rgb(22, 22, 22);
+  color: rgb(21, 22, 22);
   filter: drop-shadow(3px 4px 7px black);
 }
 .class {
